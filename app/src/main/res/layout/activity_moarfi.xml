@@ -1,0 +1,142 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#ffff"
+    tools:context="com.example.avestafani.tourism.moarfi">
+    <android.support.design.widget.AppBarLayout
+        android:background="#01254d"
+        android:id="@+id/appbar"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true">
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="50dp">
+            <TextView
+                android:layout_width="100dp"
+                android:layout_height="wrap_content"
+                android:text="معرفی ایرانگردی"
+                android:textStyle="bold"
+                android:textSize="15dp"
+                android:layout_marginRight="48dp"
+                android:layout_marginTop="18dp"
+                android:textColor="#f7f4f4"/>
+            <ImageView
+                android:id="@+id/imgback"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/ic_exit1"
+                android:layout_marginTop="18dp"
+                android:layout_marginRight="15dp"/>
+        </RelativeLayout>
+    </android.support.design.widget.AppBarLayout>
+
+
+    <ScrollView
+        android:layout_below="@+id/appbar"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
+
+    <LinearLayout
+            android:layout_marginTop="10dp"
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <ImageView
+                android:layout_marginTop="30dp"
+                android:id="@+id/img2"
+                android:layout_width="170dp"
+                android:layout_height="80dp"
+                android:layout_gravity="center"
+                android:layout_weight="0.05"
+                app:srcCompat="@drawable/iran11" />
+
+
+        </LinearLayout>
+
+    <LinearLayout
+        android:layout_marginTop="30dp"
+        android:id="@+id/line22"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true">
+
+        <TextView
+            android:id="@+id/textView2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="20dp"
+            android:gravity="center"
+            android:paddingLeft="10dp"
+            android:paddingRight="10dp"
+            android:text="اپلیکیشن جامع راهنمای سفر و خدمات گردشگری ایرانگردی"
+            android:textColor="#01254d"
+            android:textSize="20dp"
+            android:textStyle="bold" />
+    </LinearLayout>
+    <LinearLayout
+        android:layout_marginTop="50dp"
+        android:layout_below="@+id/line22"
+        android:id="@+id/line12"
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+
+        <TextView
+            android:textSize="16dp"
+            android:layout_gravity="center"
+            android:textColor="#111112"
+            android:text="صاحب امتیاز : شرکت غرب ..."
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+
+
+
+        <TextView
+            android:textSize="16dp"
+            android:layout_gravity="center"
+            android:layout_marginTop="10dp"
+            android:textColor="#111112"
+            android:text="شماره مجوز ارشاد :4 - 2 - 1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+        <TextView
+            android:textSize="16dp"
+            android:layout_gravity="center"
+            android:layout_marginTop="10dp"
+            android:textColor="#111112"
+            android:text="ثبت شده در مرکز مالکیت معنوی  : 1-2-4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+
+        <TextView
+            android:textSize="18dp"
+            android:layout_gravity="center"
+            android:layout_marginTop="175dp"
+            android:textColor="#9e9b9e"
+            android:text="نسخه  :1 - 2 - 8"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+    </LinearLayout>
+</LinearLayout>
+    </ScrollView>
+
+
+</RelativeLayout>

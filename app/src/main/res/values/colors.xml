@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#FF4081</color>
+
+
+    <color name="fab1">#01254d</color>
+    <color name="fab2">#01254d</color>
+
+    <color name="slid1_bg">#ffff</color>
+    <color name="slid_texe_color">#0a0000</color>
+    <color name="slid_text_coloe2">#696868</color>
+</resources>

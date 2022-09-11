@@ -1,0 +1,168 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.example.avestafani.tourism.safar_kermanshah">
+    <android.support.design.widget.AppBarLayout
+        android:background="#01254d"
+        android:id="@+id/appbar"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true">
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="50dp">
+            <TextView
+                android:layout_width="100dp"
+                android:layout_height="wrap_content"
+                android:text="سفر به کرمانشاه"
+                android:textStyle="bold"
+                android:textSize="15dp"
+                android:layout_marginRight="43dp"
+                android:layout_marginTop="18dp"
+                android:textColor="#faf8f8"/>
+            <ImageView
+                android:id="@+id/imgback"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/ic_exit1"
+                android:layout_marginTop="18dp"
+                android:layout_marginRight="15dp"/>
+        </RelativeLayout>
+
+
+
+    </android.support.design.widget.AppBarLayout>
+    <ScrollView
+        android:layout_marginTop="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
+        <ImageView
+            android:id="@+id/img1"
+            android:scaleType="fitXY"
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            android:src="@drawable/tagh1"/>
+            <TextView
+                android:id="@+id/txt2"
+                android:padding="10dp"
+                android:textColor="#848282"
+                android:textSize="15dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/safar_kermanshah"/>
+
+            <ImageView
+                android:id="@+id/img2"
+                android:scaleType="fitXY"
+                android:layout_width="match_parent"
+                android:layout_height="200dp"
+                android:src="@drawable/tagh4"/>
+            <TextView
+                android:id="@+id/txt1"
+                android:padding="10dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="معرفی شهر کرمانشاه"
+                android:textSize="16dp"
+                android:textStyle="bold"                android:textColor="#130d0d"/>
+
+
+            <TextView
+                android:id="@+id/txt3"
+                android:padding="10dp"
+                android:textColor="#848282"
+                android:textSize="15dp"                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/moarfi_kermanshah"/>
+
+
+
+            <ImageView
+                android:id="@+id/img3"
+                android:scaleType="fitXY"
+                android:layout_width="match_parent"
+                android:layout_height="200dp"
+                android:src="@drawable/kr3"/>
+            <TextView
+                android:id="@+id/txt4"
+                android:padding="10dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="آب و هوا و بهترین فصل سفر به کرمانشاه"
+                android:textSize="16dp"
+                android:textStyle="bold"                android:textColor="#130d0d"/>
+
+
+            <TextView
+                android:id="@+id/txt5"
+                android:padding="10dp"
+                android:textColor="#848282"
+                android:textSize="15dp"                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/ab_havi_kermanshah"/>
+
+
+            <ImageView
+                android:id="@+id/img4"
+                android:scaleType="fitXY"
+                android:layout_width="match_parent"
+                android:layout_height="200dp"
+                android:src="@drawable/kr2"/>
+            <TextView
+                android:id="@+id/txt6"
+                android:padding="10dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="جشنواره ها و مراسمن آیینی و فرهنگی کرمانشاه"
+                android:textSize="16dp"
+                android:textStyle="bold"                android:textColor="#130d0d"/>
+
+
+            <TextView
+                android:id="@+id/txt7"
+                android:padding="10dp"
+                android:textColor="#848282"
+                android:textSize="15dp"                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/jashn_kermanshah"/>
+
+            <ImageView
+                android:id="@+id/img6"
+                android:scaleType="fitXY"
+                android:layout_width="match_parent"
+                android:layout_height="200dp"
+                android:src="@drawable/kr1"/>
+            <TextView
+                android:id="@+id/txt8"
+                android:padding="10dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="سوغاتی های کرمانشاه"
+                android:textSize="16dp"
+                android:textStyle="bold"                android:textColor="#130d0d"/>
+
+
+            <TextView
+                android:id="@+id/txt9"
+                android:padding="10dp"
+                android:textColor="#848282"
+                android:textSize="15dp"                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/soghati_kermanshah"/>
+
+
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>

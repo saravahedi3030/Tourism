@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.example.avestafani.tourism.show_jazbh_kol">
+    <android.support.design.widget.AppBarLayout
+        android:background="#01254d"
+        android:id="@+id/appbar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true">
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="65dp">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="جاذبه گردشگری "
+                android:textStyle="bold"
+                android:textSize="15dp"
+                android:layout_marginRight="43dp"
+
+                android:layout_marginTop="11dp"
+                android:textColor="#faf8f8"/>
+            <ImageView
+                android:id="@+id/imgback"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/ic_exit1"
+                android:layout_marginTop="22dp"
+                android:layout_marginRight="15dp"/>
+            <TextView
+                android:layout_width="90dp"
+                android:layout_marginRight="43dp"
+                android:textSize="14dp"
+                android:textColor="#fbfcfd"
+                android:layout_marginTop="38dp"
+                android:layout_height="wrap_content"
+                android:text="ایران-کرمانشاه"
+                />
+
+
+        </RelativeLayout>
+
+    </android.support.design.widget.AppBarLayout>
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+        <android.support.v7.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="2dp"
+                app:cardCornerRadius="10dp"
+                app:cardElevation="5dp">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+
+                    <ImageView
+                        android:id="@+id/img1"
+                        android:layout_width="match_parent"
+                        android:layout_height="200dp"
+                        android:layout_gravity="center"
+                        android:scaleType="fitXY"
+                        android:src="@drawable/abi" />
+
+
+                </LinearLayout>
+            </android.support.v7.widget.CardView>
+
+            <android.support.v7.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginTop="10dp"
+                app:cardCornerRadius="10dp"
+                app:cardElevation="5dp">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:id="@+id/txt1"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:layout_marginTop="20dp"
+                        android:textColor="#130f0f"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:id="@+id/txt2"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:layout_marginLeft="20dp"
+                        android:layout_marginRight="20dp"
+                        android:layout_marginTop="10dp"
+                        android:textColor="#130f0f"
+                        android:textSize="15dp" />
+                    <TextView
+                        android:id="@+id/txt3"
+                        android:layout_width="match_parent"
+                        android:layout_height="400dp"
+                        android:layout_gravity="center"
+                        android:layout_marginLeft="20dp"
+                        android:layout_marginRight="20dp"
+                        android:layout_marginTop="10dp"
+                        android:textColor="#130f0f"
+                        android:textSize="15dp" />
+                </LinearLayout>
+            </android.support.v7.widget.CardView>
+</LinearLayout>
+    </ScrollView>
+</LinearLayout>
+

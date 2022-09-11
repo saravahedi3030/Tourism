@@ -1,0 +1,1215 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/ratingdash"
+    tools:context="com.example.avestafani.tourism.start">
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_marginTop="12dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="13dp"
+            android:orientation="vertical" >
+
+
+            <GridLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginTop="190dp"
+                android:columnCount="2"
+                android:layout_margin="20dp"
+                android:rowCount="3"
+                android:id="@+id/gridLayout">
+
+
+
+            <android.support.v7.widget.CardView
+                    android:id="@+id/card1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_columnWeight="1"
+                    android:layout_margin="12dp"
+                    android:layout_rowWeight="1"
+                    android:elevation="6dp"
+                    app:cardCornerRadius="12dp"
+                    app:cardElevation="60dp">
+
+                    <LinearLayout
+                        android:id="@+id/line1"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:gravity="center"
+                        android:orientation="vertical"
+                        android:padding="16dp">
+
+                        <ImageView
+                            android:id="@+id/img3"
+                            android:layout_width="80dp"
+                            android:layout_height="80dp"
+                            android:scaleType="centerCrop"
+                            android:src="@drawable/tagh2" />
+                        <TextView
+                            android:textColor="#0a0707"
+                            android:layout_gravity="center"
+                            android:gravity="center"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="کرمانشاه"/>
+                    </LinearLayout>
+
+                </android.support.v7.widget.CardView>
+
+
+                <android.support.v7.widget.CardView
+                    android:id="@+id/card2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_columnWeight="1"
+                    android:layout_margin="12dp"
+                    android:layout_rowWeight="1"
+                    android:elevation="6dp"
+                    app:cardCornerRadius="12dp"
+                    app:cardElevation="60dp">
+
+                    <LinearLayout
+                        android:id="@+id/line2"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:gravity="center"
+                        android:orientation="vertical"
+                        android:padding="16dp">
+
+                        <ImageView
+                            android:id="@+id/img2"
+                            android:layout_width="80dp"
+                            android:layout_height="80dp"
+                            android:scaleType="centerCrop"
+                            android:src="@drawable/tabriz1" />
+
+                        <TextView
+                            android:id="@+id/textView3"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center"
+                            android:gravity="center"
+                            android:text="اذربایجان شرقی"
+                            android:textColor="#0a0707" />
+                    </LinearLayout>
+
+                </android.support.v7.widget.CardView>
+
+                <android.support.v7.widget.CardView
+                    android:id="@+id/card3"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_columnWeight="1"
+                    android:layout_margin="12dp"
+                    android:layout_rowWeight="1"
+                    android:elevation="6dp"
+                    app:cardCornerRadius="12dp"
+                    app:cardElevation="60dp">
+
+                    <LinearLayout
+                        android:id="@+id/line3"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:gravity="center"
+                        android:orientation="vertical"
+                        android:padding="16dp">
+
+                        <ImageView
+                            android:id="@+id/img4"
+                            android:layout_width="80dp"
+                            android:layout_height="80dp"
+                            android:scaleType="centerCrop"
+                            android:src="@drawable/ardbil1" />
+
+                        <TextView
+                            android:textColor="#0a0707"
+                            android:layout_gravity="center"
+                            android:gravity="center"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:text="اردبیل"/>
+
+                    </LinearLayout>
+
+                </android.support.v7.widget.CardView>
+
+                <android.support.v7.widget.CardView
+                    android:id="@+id/card4"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_columnWeight="1"
+                    android:layout_margin="12dp"
+                    android:layout_rowWeight="1"
+                    android:elevation="6dp"
+                    app:cardCornerRadius="12dp"
+                    app:cardElevation="60dp">
+
+                    <LinearLayout
+                        android:id="@+id/line4"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:gravity="center"
+                        android:orientation="vertical"
+                        android:padding="16dp">
+
+                        <ImageView
+                            android:id="@+id/img5"
+                            android:layout_width="80dp"
+                            android:layout_height="80dp"
+                            android:scaleType="centerCrop"
+                            android:src="@drawable/esfhan12" />
+
+                        <TextView
+                            android:textColor="#0a0707"
+                            android:layout_gravity="center"
+                            android:gravity="center"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:text="اصفهان"/>
+                    </LinearLayout>
+
+                </android.support.v7.widget.CardView>
+
+                <android.support.v7.widget.CardView
+                    android:id="@+id/card5"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_columnWeight="1"
+                    android:layout_margin="12dp"
+                    android:layout_rowWeight="1"
+                    android:elevation="6dp"
+                    app:cardCornerRadius="12dp"
+                    app:cardElevation="60dp">
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:gravity="center"
+                        android:orientation="vertical"
+                        android:padding="16dp">
+
+                        <ImageView
+                            android:id="@+id/img6"
+                            android:layout_width="80dp"
+                            android:layout_height="80dp"
+                            android:scaleType="centerCrop"
+                            android:src="@drawable/karaj1" />
+
+                        <TextView
+                            android:textColor="#0a0707"
+                            android:layout_gravity="center"
+                            android:gravity="center"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:text="البرز"/>
+
+                    </LinearLayout>
+
+                </android.support.v7.widget.CardView>
+
+                <android.support.v7.widget.CardView
+                    android:id="@+id/card6"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_columnWeight="1"
+                    android:layout_margin="12dp"
+                    android:layout_rowWeight="1"
+                    android:elevation="6dp"
+                    app:cardCornerRadius="12dp"
+                    app:cardElevation="60dp">
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:gravity="center"
+                        android:orientation="vertical"
+                        android:padding="16dp"
+                        android:weightSum="1">
+
+                        <ImageView
+                            android:src="@drawable/elim1"
+                            android:scaleType="centerCrop"
+                            android:id="@+id/img7"
+                            android:layout_width="80dp"
+                            android:layout_height="80dp"
+                            android:layout_weight="0.06" />
+
+                        <TextView
+                            android:textColor="#0a0707"
+                            android:layout_gravity="center"
+                            android:gravity="center"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:text="ایلام"/>
+                    </LinearLayout>
+
+                </android.support.v7.widget.CardView>
+
+                <android.support.v7.widget.CardView
+                    android:id="@+id/card7"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_columnWeight="1"
+                    android:layout_margin="12dp"
+                    android:layout_rowWeight="1"
+                    android:elevation="6dp"
+                    app:cardCornerRadius="12dp"
+                    app:cardElevation="60dp">
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:gravity="center"
+                        android:orientation="vertical"
+                        android:padding="16dp">
+
+                        <ImageView
+                            android:src="@drawable/boshhr1"
+                            android:scaleType="centerCrop"
+                            android:id="@+id/img8"
+                            android:layout_width="80dp"
+                            android:layout_height="80dp" />
+
+
+                        <TextView
+                            android:textColor="#0a0707"
+                            android:layout_gravity="center"
+                            android:gravity="center"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:text="بوشهر"/>
+
+                    </LinearLayout>
+
+                </android.support.v7.widget.CardView>
+
+                <android.support.v7.widget.CardView
+                    android:id="@+id/card8"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_columnWeight="1"
+                    android:layout_margin="12dp"
+                    android:layout_rowWeight="1"
+                    android:elevation="6dp"
+                    app:cardCornerRadius="12dp"
+                    app:cardElevation="60dp">
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:gravity="center"
+                        android:orientation="vertical"
+                        android:padding="16dp">
+
+                        <ImageView
+                            android:src="@drawable/tehran1"
+                            android:scaleType="centerCrop"
+                            android:id="@+id/img9"
+                            android:layout_width="80dp"
+                            android:layout_height="80dp" />
+
+
+                        <TextView
+                            android:textColor="#0a0707"
+                            android:layout_gravity="center"
+                            android:gravity="center"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:text="تهران"/>
+
+
+
+                    </LinearLayout>
+
+                </android.support.v7.widget.CardView>
+                <android.support.v7.widget.CardView
+                    android:id="@+id/card9"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_columnWeight="1"
+                    android:layout_margin="12dp"
+                    android:layout_rowWeight="1"
+                    android:elevation="6dp"
+                    app:cardCornerRadius="12dp"
+                    app:cardElevation="60dp">
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:gravity="center"
+                        android:orientation="vertical"
+                        android:padding="16dp">
+
+                        <ImageView
+                            android:src="@drawable/elim1"
+                            android:scaleType="centerCrop"
+                            android:id="@+id/img10"
+                            android:layout_width="80dp"
+                            android:layout_height="80dp" />
+
+
+                        <TextView
+                            android:textSize="12dp"
+                            android:textColor="#0a0707"
+                            android:layout_gravity="center"
+                            android:gravity="center"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:text="چهارمحال و بختیاری"/>
+                    </LinearLayout>
+
+                </android.support.v7.widget.CardView>
+
+                <android.support.v7.widget.CardView
+                    android:id="@+id/card10"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_columnWeight="1"
+                    android:layout_margin="12dp"
+                    android:layout_rowWeight="1"
+                    android:elevation="6dp"
+                    app:cardCornerRadius="12dp"
+                    app:cardElevation="60dp">
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:gravity="center"
+                        android:orientation="vertical"
+                        android:padding="16dp">
+
+                        <ImageView
+                            android:src="@drawable/berjand1"
+                            android:scaleType="centerCrop"
+                            android:id="@+id/img11"
+                            android:layout_width="80dp"
+                            android:layout_height="80dp" />
+                        <TextView
+                            android:textColor="#0a0707"
+                            android:layout_gravity="center"
+                            android:gravity="center"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:text="خراسان جنوبی"/>
+                    </LinearLayout>
+
+                </android.support.v7.widget.CardView>
+                <android.support.v7.widget.CardView
+                    android:id="@+id/card11"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_columnWeight="1"
+                    android:layout_margin="12dp"
+                    android:layout_rowWeight="1"
+                    android:elevation="6dp"
+                    app:cardCornerRadius="12dp"
+                    app:cardElevation="60dp">
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:gravity="center"
+                        android:orientation="vertical"
+                        android:padding="16dp">
+
+                        <ImageView
+                            android:src="@drawable/mashhad1"
+                            android:scaleType="centerCrop"
+                            android:id="@+id/img12"
+                            android:layout_width="80dp"
+                            android:layout_height="80dp" />
+                        <TextView
+                            android:textColor="#0a0707"
+                            android:layout_gravity="center"
+                            android:gravity="center"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:text="خراسان رضوی"/>
+                    </LinearLayout>
+
+                </android.support.v7.widget.CardView>
+
+                <android.support.v7.widget.CardView
+                    android:id="@+id/card12"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_columnWeight="1"
+                    android:layout_margin="12dp"
+                    android:layout_rowWeight="1"
+                    android:elevation="6dp"
+                    app:cardCornerRadius="12dp"
+                    app:cardElevation="60dp">
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:gravity="center"
+                        android:orientation="vertical"
+                        android:padding="16dp">
+
+                        <ImageView
+                            android:src="@drawable/bjnord1"
+                            android:scaleType="centerCrop"
+                            android:id="@+id/img13"
+                            android:layout_width="80dp"
+                            android:layout_height="80dp" />
+                        <TextView
+                            android:textColor="#0a0707"
+                            android:layout_gravity="center"
+                            android:gravity="center"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:text="خراسان شمالی"/>
+                    </LinearLayout>
+
+                </android.support.v7.widget.CardView>
+
+
+                <android.support.v7.widget.CardView
+                    android:id="@+id/card13"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_columnWeight="1"
+                    android:layout_margin="12dp"
+                    android:layout_rowWeight="1"
+                    android:elevation="6dp"
+                    app:cardCornerRadius="12dp"
+                    app:cardElevation="60dp">
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:gravity="center"
+                        android:orientation="vertical"
+                        android:padding="16dp">
+
+                        <ImageView
+                            android:src="@drawable/ahvaz1"
+                            android:scaleType="centerCrop"
+                            android:id="@+id/img14"
+                            android:layout_width="80dp"
+                            android:layout_height="80dp" />
+                        <TextView
+
+                            android:textColor="#0a0707"
+                            android:layout_gravity="center"
+                            android:gravity="center"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:text="خوزستان"/>
+                    </LinearLayout>
+
+                </android.support.v7.widget.CardView>
+
+                <android.support.v7.widget.CardView
+                    android:id="@+id/card14"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_columnWeight="1"
+                    android:layout_margin="12dp"
+                    android:layout_rowWeight="1"
+                    android:elevation="6dp"
+                    app:cardCornerRadius="12dp"
+                    app:cardElevation="60dp">
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:gravity="center"
+                        android:orientation="vertical"
+                        android:padding="16dp">
+
+                        <ImageView
+                            android:src="@drawable/zangan1"
+                            android:scaleType="centerCrop"
+                            android:id="@+id/img15"
+                            android:layout_width="80dp"
+                            android:layout_height="80dp" />
+                        <TextView
+                            android:textColor="#0a0707"
+                            android:layout_gravity="center"
+                            android:gravity="center"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:text="زنجان"/>
+                    </LinearLayout>
+
+                </android.support.v7.widget.CardView>
+
+
+
+
+
+                <android.support.v7.widget.CardView
+                   android:id="@+id/card15"
+                     android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_columnWeight="1"
+                    android:layout_margin="12dp"
+                    android:layout_rowWeight="1"
+                    android:elevation="6dp"
+                    app:cardCornerRadius="12dp"
+                    app:cardElevation="60dp">
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:gravity="center"
+                        android:orientation="vertical"
+                        android:padding="16dp">
+
+                        <ImageView
+                            android:src="@drawable/semnan1"
+                            android:scaleType="centerCrop"
+                            android:id="@+id/img16"
+                            android:layout_width="80dp"
+                            android:layout_height="80dp" />
+                        <TextView
+                            android:textColor="#0a0707"
+                            android:layout_gravity="center"
+                            android:gravity="center"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:text="سمنان"/>
+                    </LinearLayout>
+
+                </android.support.v7.widget.CardView>
+
+                <android.support.v7.widget.CardView
+                    android:id="@+id/card16"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_columnWeight="1"
+                    android:layout_margin="12dp"
+                    android:layout_rowWeight="1"
+                    android:elevation="6dp"
+                    app:cardCornerRadius="12dp"
+                    app:cardElevation="60dp">
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:gravity="center"
+                        android:orientation="vertical"
+                        android:padding="16dp">
+
+                        <ImageView
+                            android:src="@drawable/systan1"
+                            android:scaleType="centerCrop"
+                            android:id="@+id/img17"
+                            android:layout_width="80dp"
+                            android:layout_height="80dp" />
+                        <TextView
+                            android:textColor="#0a0707"
+                            android:layout_gravity="center"
+                            android:gravity="center"
+                            android:textSize="12dp"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:text="سیستان و بلوچستان"/>
+                    </LinearLayout>
+
+                </android.support.v7.widget.CardView>
+
+
+
+
+
+  <android.support.v7.widget.CardView
+                    android:id="@+id/card17"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_columnWeight="1"
+                    android:layout_margin="12dp"
+                    android:layout_rowWeight="1"
+                    android:elevation="6dp"
+                    app:cardCornerRadius="12dp"
+                    app:cardElevation="60dp">
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:gravity="center"
+                        android:orientation="vertical"
+                        android:padding="16dp">
+
+                        <ImageView
+                            android:src="@drawable/sheraz1"
+                            android:scaleType="centerCrop"
+                            android:id="@+id/img18"
+                            android:layout_width="80dp"
+                            android:layout_height="80dp" />
+                        <TextView
+                            android:textColor="#0a0707"
+                            android:layout_gravity="center"
+                            android:gravity="center"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:text="شیراز"/>
+                    </LinearLayout>
+
+                </android.support.v7.widget.CardView>
+
+                <android.support.v7.widget.CardView
+                    android:id="@+id/card18"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_columnWeight="1"
+                    android:layout_margin="12dp"
+                    android:layout_rowWeight="1"
+                    android:elevation="6dp"
+                    app:cardCornerRadius="12dp"
+                    app:cardElevation="60dp">
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:gravity="center"
+                        android:orientation="vertical"
+                        android:padding="16dp">
+
+                        <ImageView
+                            android:src="@drawable/ghazvin1"
+                            android:scaleType="centerCrop"
+                            android:id="@+id/img19"
+                            android:layout_width="80dp"
+                            android:layout_height="80dp" />
+                        <TextView
+                            android:textColor="#0a0707"
+                            android:layout_gravity="center"
+                            android:gravity="center"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:text="قزوین"/>
+                    </LinearLayout>
+
+                </android.support.v7.widget.CardView>
+
+
+
+
+
+  <android.support.v7.widget.CardView
+                    android:id="@+id/card19"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_columnWeight="1"
+                    android:layout_margin="12dp"
+                    android:layout_rowWeight="1"
+                    android:elevation="6dp"
+                    app:cardCornerRadius="12dp"
+                    app:cardElevation="60dp">
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:gravity="center"
+                        android:orientation="vertical"
+                        android:padding="16dp">
+
+                        <ImageView
+                            android:src="@drawable/ghom1"
+                            android:scaleType="centerCrop"
+                            android:id="@+id/img20"
+                            android:layout_width="80dp"
+                            android:layout_height="80dp" />
+                        <TextView
+                            android:textColor="#0a0707"
+                            android:layout_gravity="center"
+                            android:gravity="center"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:text="قم"/>
+                    </LinearLayout>
+
+                </android.support.v7.widget.CardView>
+
+
+
+  <android.support.v7.widget.CardView
+                   android:id="@+id/card20"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_columnWeight="1"
+                    android:layout_margin="12dp"
+                    android:layout_rowWeight="1"
+                    android:elevation="6dp"
+                    app:cardCornerRadius="12dp"
+                    app:cardElevation="60dp">
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:gravity="center"
+                        android:orientation="vertical"
+                        android:padding="16dp">
+
+                        <ImageView
+                            android:src="@drawable/kordstan1"
+                            android:scaleType="centerCrop"
+                            android:id="@+id/img21"
+                            android:layout_width="80dp"
+                            android:layout_height="80dp" />
+                        <TextView
+                            android:textColor="#0a0707"
+                            android:layout_gravity="center"
+                            android:gravity="center"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:text="کردستان"/>
+                    </LinearLayout>
+
+                </android.support.v7.widget.CardView>
+
+                <android.support.v7.widget.CardView
+                    android:id="@+id/card21"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_columnWeight="1"
+                    android:layout_margin="12dp"
+                    android:layout_rowWeight="1"
+                    android:elevation="6dp"
+                    app:cardCornerRadius="12dp"
+                    app:cardElevation="60dp">
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:gravity="center"
+                        android:orientation="vertical"
+                        android:padding="16dp">
+
+                        <ImageView
+                            android:src="@drawable/kerman1"
+                            android:scaleType="centerCrop"
+                            android:id="@+id/img22"
+                            android:layout_width="80dp"
+                            android:layout_height="80dp" />
+                        <TextView
+                            android:textColor="#0a0707"
+                            android:layout_gravity="center"
+                            android:gravity="center"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:text="کرمان"/>
+                    </LinearLayout>
+
+                </android.support.v7.widget.CardView>
+
+
+
+
+
+  <android.support.v7.widget.CardView
+                    android:id="@+id/card22"
+
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_columnWeight="1"
+                    android:layout_margin="12dp"
+                    android:layout_rowWeight="1"
+                    android:elevation="6dp"
+                    app:cardCornerRadius="12dp"
+                    app:cardElevation="60dp">
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:gravity="center"
+                        android:orientation="vertical"
+                        android:padding="16dp">
+
+                        <ImageView
+                            android:src="@drawable/oromyh1"
+                            android:scaleType="centerCrop"
+                            android:id="@+id/img23"
+                            android:layout_width="80dp"
+                            android:layout_height="80dp" />
+                        <TextView
+                            android:textColor="#0a0707"
+                            android:layout_gravity="center"
+                            android:gravity="center"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:text="آذربایجان غربی"/>
+                    </LinearLayout>
+
+                </android.support.v7.widget.CardView>
+
+                <android.support.v7.widget.CardView
+                    android:id="@+id/card23"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_columnWeight="1"
+                    android:layout_margin="12dp"
+                    android:layout_rowWeight="1"
+                    android:elevation="6dp"
+                    app:cardCornerRadius="12dp"
+                    app:cardElevation="60dp">
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:gravity="center"
+                        android:orientation="vertical"
+                        android:padding="16dp">
+
+                        <ImageView
+                            android:src="@drawable/kah1"
+                            android:scaleType="centerCrop"
+                            android:id="@+id/img24"
+                            android:layout_width="80dp"
+                            android:layout_height="80dp" />
+                        <TextView
+                            android:textSize="12dp"
+                            android:textColor="#0a0707"
+                            android:layout_gravity="center"
+                            android:gravity="center"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:text="کهگیلویه و بویراحمد"/>
+                    </LinearLayout>
+
+                </android.support.v7.widget.CardView>
+
+
+
+
+
+  <android.support.v7.widget.CardView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_columnWeight="1"
+                    android:layout_margin="12dp"
+                    android:layout_rowWeight="1"
+                    android:elevation="6dp"
+                    android:id="@+id/card24"
+                    app:cardCornerRadius="12dp"
+                    app:cardElevation="60dp">
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:gravity="center"
+                        android:orientation="vertical"
+                        android:padding="16dp">
+
+                        <ImageView
+                            android:src="@drawable/golstan1"
+                            android:scaleType="centerCrop"
+                            android:id="@+id/img25"
+                            android:layout_width="80dp"
+                            android:layout_height="80dp" />
+                        <TextView
+                            android:textColor="#0a0707"
+                            android:layout_gravity="center"
+                            android:gravity="center"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:text="گلستان"/>
+                    </LinearLayout>
+
+                </android.support.v7.widget.CardView>
+
+                <android.support.v7.widget.CardView
+                    android:id="@+id/card25"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_columnWeight="1"
+                    android:layout_margin="12dp"
+                    android:layout_rowWeight="1"
+                    android:elevation="6dp"
+                    app:cardCornerRadius="12dp"
+                    app:cardElevation="60dp">
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:gravity="center"
+                        android:orientation="vertical"
+                        android:padding="16dp">
+
+                        <ImageView
+                            android:src="@drawable/gelan1"
+                            android:scaleType="centerCrop"
+                            android:id="@+id/im26"
+                            android:layout_width="80dp"
+                            android:layout_height="80dp" />
+                        <TextView
+                            android:textColor="#0a0707"
+                            android:layout_gravity="center"
+                            android:gravity="center"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:text="گیلان"/>
+                    </LinearLayout>
+
+                </android.support.v7.widget.CardView>
+
+
+
+
+
+                   <android.support.v7.widget.CardView
+                    android:id="@+id/card26"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_columnWeight="1"
+                    android:layout_margin="12dp"
+                    android:layout_rowWeight="1"
+                    android:elevation="6dp"
+                    app:cardCornerRadius="12dp"
+                    app:cardElevation="60dp">
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:gravity="center"
+                        android:orientation="vertical"
+                        android:padding="16dp">
+
+                        <ImageView
+                            android:src="@drawable/lorstan1"
+                            android:scaleType="centerCrop"
+                            android:id="@+id/img27"
+                            android:layout_width="80dp"
+                            android:layout_height="80dp" />
+                        <TextView
+                            android:textColor="#0a0707"
+                            android:layout_gravity="center"
+                            android:gravity="center"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:text="لرستان"/>
+                    </LinearLayout>
+
+                </android.support.v7.widget.CardView>
+
+                <android.support.v7.widget.CardView
+                    android:id="@+id/card27"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_columnWeight="1"
+                    android:layout_margin="12dp"
+                    android:layout_rowWeight="1"
+                    android:elevation="6dp"
+                    app:cardCornerRadius="12dp"
+                    app:cardElevation="60dp">
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:gravity="center"
+                        android:orientation="vertical"
+                        android:padding="16dp">
+
+                        <ImageView
+                            android:src="@drawable/mazandran1"
+                            android:scaleType="centerCrop"
+                            android:id="@+id/img28"
+                            android:layout_width="80dp"
+                            android:layout_height="80dp" />
+                        <TextView
+                            android:textColor="#0a0707"
+                            android:layout_gravity="center"
+                            android:gravity="center"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:text="مازندران"/>
+                    </LinearLayout>
+
+                </android.support.v7.widget.CardView>
+
+
+
+
+                <android.support.v7.widget.CardView
+                    android:id="@+id/card28"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_columnWeight="1"
+                    android:layout_margin="12dp"
+                    android:layout_rowWeight="1"
+                    android:elevation="6dp"
+                    app:cardCornerRadius="12dp"
+                    app:cardElevation="60dp">
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:gravity="center"
+                        android:orientation="vertical"
+                        android:padding="16dp">
+
+                        <ImageView
+                            android:src="@drawable/markazi1"
+                            android:scaleType="centerCrop"
+                            android:id="@+id/img29"
+                            android:layout_width="80dp"
+                            android:layout_height="80dp" />
+                        <TextView
+                            android:textColor="#0a0707"
+                            android:layout_gravity="center"
+                            android:gravity="center"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:text="مرکزی"/>
+                    </LinearLayout>
+
+                </android.support.v7.widget.CardView>
+
+
+
+                <android.support.v7.widget.CardView
+                    android:id="@+id/card29"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_columnWeight="1"
+                    android:layout_margin="12dp"
+                    android:layout_rowWeight="1"
+                    android:elevation="6dp"
+                    app:cardCornerRadius="12dp"
+                    app:cardElevation="60dp">
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:gravity="center"
+                        android:orientation="vertical"
+                        android:padding="16dp">
+
+                        <ImageView
+                            android:src="@drawable/hormoz1"
+                            android:scaleType="centerCrop"
+                            android:id="@+id/img30"
+                            android:layout_width="80dp"
+                            android:layout_height="80dp" />
+                        <TextView
+                            android:textColor="#0a0707"
+                            android:layout_gravity="center"
+                            android:gravity="center"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:text="هرمزگان"/>
+                    </LinearLayout>
+
+                </android.support.v7.widget.CardView>
+
+
+
+
+
+                <android.support.v7.widget.CardView
+                    android:id="@+id/card30"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_columnWeight="1"
+                    android:layout_margin="12dp"
+                    android:layout_rowWeight="1"
+                    android:elevation="6dp"
+                    app:cardCornerRadius="12dp"
+                    app:cardElevation="60dp">
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:gravity="center"
+                        android:orientation="vertical"
+                        android:padding="16dp">
+
+                        <ImageView
+                            android:src="@drawable/hamedan1"
+                            android:scaleType="centerCrop"
+                            android:id="@+id/img31"
+                            android:layout_width="80dp"
+                            android:layout_height="80dp" />
+                        <TextView
+                            android:textColor="#0a0707"
+                            android:layout_gravity="center"
+                            android:gravity="center"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:text="همدان"/>
+                    </LinearLayout>
+
+                </android.support.v7.widget.CardView>
+
+
+
+
+
+                <android.support.v7.widget.CardView
+                    android:id="@+id/card31"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_columnWeight="1"
+                    android:layout_margin="12dp"
+                    android:layout_rowWeight="1"
+                    android:elevation="6dp"
+                    app:cardCornerRadius="12dp"
+                    app:cardElevation="60dp">
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:gravity="center"
+                        android:orientation="vertical"
+                        android:padding="16dp">
+
+                        <ImageView
+                            android:src="@drawable/yazd1"
+                            android:scaleType="centerCrop"
+                            android:id="@+id/img32"
+                            android:layout_width="80dp"
+                            android:layout_height="80dp" />
+                        <TextView
+                            android:textColor="#0a0707"
+                            android:layout_gravity="center"
+                            android:gravity="center"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:text="یزد"/>
+                    </LinearLayout>
+
+                </android.support.v7.widget.CardView>
+
+
+
+
+
+
+
+
+
+
+            </GridLayout>
+        </LinearLayout>
+
+    </ScrollView>
+
+
+
+    <TextView
+        android:id="@+id/textView7"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="ایرانگردی"
+        android:layout_marginRight="260dp"
+        android:layout_marginLeft="10dp"
+        android:textStyle="bold"
+        android:layout_marginTop="10dp"
+        android:textColor="#01254d"
+        android:textSize="25dp"
+        />
+
+
+</RelativeLayout>

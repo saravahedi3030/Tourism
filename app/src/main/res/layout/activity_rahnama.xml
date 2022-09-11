@@ -1,0 +1,307 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.avestafani.tourism.rahnama">
+
+
+    <android.support.design.widget.AppBarLayout
+        android:background="#01254d"
+        android:id="@+id/appbar"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true">
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="60dp">
+            <TextView
+                android:layout_width="100dp"
+                android:layout_height="wrap_content"
+                android:text=" مجله گردشگری"
+                android:textStyle="bold"
+                android:textSize="15dp"
+                android:layout_marginRight="43dp"
+                android:layout_marginTop="18dp"
+                android:textColor="#fcf9f9"/>
+            <ImageView
+                android:id="@+id/imgback"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/ic_exit1"
+                android:layout_marginTop="18dp"
+                android:layout_marginRight="15dp"/>
+</RelativeLayout>
+
+
+
+    </android.support.design.widget.AppBarLayout>
+
+    <ScrollView
+        android:layout_below="@+id/appbar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true">
+
+        <LinearLayout
+
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
+            <android.support.v7.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                app:cardCornerRadius="10dp"
+                app:cardElevation="5dp"
+                android:layout_margin="15dp"
+                app:contentPadding="10dp">
+                <ImageView
+                    android:id="@+id/img1"
+                    android:scaleType="fitXY"
+                    android:layout_width="match_parent"
+                    android:layout_height="200dp"
+                    android:src="@drawable/tagh1"/>
+
+
+                <TextView
+
+                    android:id="@+id/txt1"
+                    android:padding="10dp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="راهنمای سفر به کرمانشاه"
+                    android:textSize="16dp"
+                    android:textStyle="bold"
+                    android:layout_marginTop="200dp"
+                    android:textColor="#130d0d"/>
+
+                <TextView
+                    android:layout_marginTop="230dp"
+                    android:textColor="#848282"
+                    android:textSize="15dp"
+                    android:id="@+id/txt2"
+                    android:padding="10dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/safar_kermanshah"/>
+            </android.support.v7.widget.CardView>
+
+
+            <android.support.v7.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                app:cardCornerRadius="10dp"
+                app:cardElevation="5dp"
+                android:layout_margin="15dp"
+                app:contentPadding="10dp">
+            <ImageView
+                android:scaleType="fitXY"
+                android:layout_width="match_parent"
+                android:layout_height="200dp"
+                android:src="@drawable/rasht"/>
+
+
+            <TextView
+                android:layout_marginTop="200dp"
+                android:textStyle="bold"
+                android:padding="10dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="راهنمای سفر به رشت"
+                android:textSize="15dp"
+                android:textColor="#130d0d"/>
+
+            <TextView
+                android:layout_marginTop="230dp"
+                android:textColor="#848282"
+                android:textSize="15dp"
+                android:padding="10dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/safar_mazandaran"/>
+            </android.support.v7.widget.CardView>
+            <android.support.v7.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                app:cardCornerRadius="10dp"
+                app:cardElevation="5dp"
+                android:layout_margin="15dp"
+                app:contentPadding="10dp">
+            <ImageView
+                android:scaleType="fitXY"
+                android:layout_width="match_parent"
+                android:layout_height="200dp"
+                android:src="@drawable/tabriz"/>
+
+
+            <TextView
+                android:padding="10dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="راهنمای سفر به تبریز"
+                android:textSize="16dp"
+                android:layout_marginTop="200dp"
+                android:textStyle="bold"                android:textColor="#130d0d"/>
+
+            <TextView
+                android:padding="10dp"
+                android:layout_marginTop="230dp"
+                android:textColor="#848282"
+                android:textSize="15dp"                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/safar_tabriz"/>
+
+
+            </android.support.v7.widget.CardView>
+
+
+
+
+            <android.support.v7.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                app:cardCornerRadius="10dp"
+                app:cardElevation="5dp"
+                android:layout_margin="15dp"
+                app:contentPadding="10dp">
+
+            <ImageView
+                android:scaleType="fitXY"
+                android:layout_width="match_parent"
+                android:layout_height="200dp"
+                android:src="@drawable/gheshm"/>
+
+
+            <TextView
+                android:padding="10dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="راهنمای سفر به قشم"
+                android:textSize="16dp"
+                android:layout_marginTop="200dp"
+                android:textStyle="bold"                android:textColor="#130d0d"/>
+
+            <TextView
+                android:padding="10dp"
+                android:layout_marginTop="230dp"
+                android:textColor="#848282"
+                android:textSize="15dp"                  android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/safar_gheshm"/>
+
+            </android.support.v7.widget.CardView>
+            <android.support.v7.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                app:cardCornerRadius="10dp"
+                app:cardElevation="5dp"
+                android:layout_margin="15dp"
+                app:contentPadding="10dp">
+            <ImageView
+                android:scaleType="fitXY"
+                android:layout_width="match_parent"
+                android:layout_height="200dp"
+                android:src="@drawable/yazd"/>
+
+
+            <TextView
+                android:padding="10dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="راهنمای سفر به یزد"
+                android:textSize="16dp"
+                android:layout_marginTop="200dp"
+                android:textStyle="bold"                android:textColor="#130d0d"/>
+
+            <TextView
+                android:padding="10dp"
+                android:layout_marginTop="230dp"
+                android:textColor="#848282"
+                android:textSize="15dp"                  android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/safar_yazd"/>
+
+
+
+            </android.support.v7.widget.CardView>
+
+            <android.support.v7.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                app:cardCornerRadius="10dp"
+                app:cardElevation="5dp"
+                android:layout_margin="15dp"
+                app:contentPadding="10dp">
+
+            <ImageView
+                android:scaleType="fitXY"
+                android:layout_width="match_parent"
+                android:layout_height="200dp"
+                android:src="@drawable/sheraz"/>
+
+
+            <TextView
+                android:padding="10dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="اهنمای سفر به شیراز"
+                android:textSize="16dp"
+                android:layout_marginTop="200dp"
+                android:textStyle="bold"                android:textColor="#130d0d"/>
+
+            <TextView
+                android:padding="10dp"
+                android:layout_marginTop="230dp"
+                android:textColor="#848282"
+                android:textSize="15dp"                  android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/safar_sheraz"/>
+
+
+            </android.support.v7.widget.CardView>
+
+
+            <android.support.v7.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                app:cardCornerRadius="10dp"
+                app:cardElevation="5dp"
+                android:layout_margin="15dp"
+                app:contentPadding="10dp">
+            <ImageView
+                android:scaleType="fitXY"
+                android:layout_width="match_parent"
+                android:layout_height="200dp"
+                android:src="@drawable/esfhan1"/>
+
+
+            <TextView
+                android:padding="10dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="راهنمای سفر به اصفهان"
+                android:textSize="16dp"
+                android:layout_marginTop="200dp"
+                android:textStyle="bold"                android:textColor="#130d0d"/>
+
+            <TextView
+                android:padding="10dp"
+                android:layout_marginTop="230dp"
+                android:textColor="#848282"
+                android:textSize="15dp"                  android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/safar_esfehan"/>
+
+            </android.support.v7.widget.CardView>
+
+        </LinearLayout>
+
+    </ScrollView>
+
+
+</RelativeLayout>

@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.avestafani.tourism">
+
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.CAMERA" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.READ_CONTACTS" />
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+
+    <!--
+         The ACCESS_COARSE/FINE_LOCATION permissions are not required to use
+         Google Maps Android API v2, but you must specify either coarse or fine
+         location permissions for the 'MyLocation' functionality.
+    -->
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".log_in" />
+        <activity android:name=".sign_in" />
+        <activity android:name=".start" />
+        <activity android:name=".sliderActivity" />
+        <activity android:name=".kermanshah" />
+        <activity android:name=".Main2Activity" />
+        <activity android:name=".page2" />
+        <activity android:name=".kermanshah_hotel" />
+        <activity android:name=".kermanshah_restoran" />
+        <activity android:name=".kermanshah_bazar" />
+        <activity android:name=".navigation" />
+        <activity android:name=".navagation1" />
+        <activity android:name=".show_jazbh" />
+        <activity android:name=".show_hotel" />
+        <activity android:name=".show_resturan" />
+        <activity android:name=".show_bazar" />
+        <!--
+             The API key for Google Maps-based APIs is defined as a string resource.
+             (See the file "res/values/google_maps_api.xml").
+             Note that the API key is linked to the encryption key used to sign the APK.
+             You need a different API key for each encryption key, including the release key that is used to
+             sign the APK for publishing.
+             You can define the keys for the debug and release targets in src/debug/ and src/release/. 
+        -->
+        <meta-data
+            android:name="com.google.android.geo.API_KEY"
+            android:value="@string/google_maps_key" />
+
+        <activity
+            android:name=".MapsActivity"
+            android:label="@string/title_activity_maps" />
+        <activity android:name=".rahnama" />
+        <activity android:name=".ertebat" />
+        <activity android:name=".moarfi" />
+        <activity android:name=".manabh1" />
+        <activity android:name=".safar_kermanshah" />
+        <activity android:name=".show_profile" />
+        <activity android:name=".safar_my" />
+        <activity android:name=".show_safar" />
+        <activity android:name=".ff" />
+        <activity android:name=".ertebat1_activity" />
+        <activity android:name=".mobile" />
+        <activity android:name=".mobile2" />
+        <activity
+            android:name=".MapsActivity1"
+            android:label="@string/title_activity_maps1" />
+        <activity android:name=".jazbh_kol" />
+        <activity android:name=".show_jazbh_kol"></activity>
+    </application>
+
+</manifest>

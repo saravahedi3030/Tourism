@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:layout_height="match_parent"
+    tools:context="com.example.avestafani.tourism.manabh1">
+    <android.support.design.widget.AppBarLayout
+        android:background="#01254d"
+        android:id="@+id/appbar"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true">
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="50dp">
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="منابع"
+        android:textStyle="bold"
+        android:textSize="15dp"
+        android:layout_marginRight="43dp"
+
+        android:layout_marginTop="18dp"
+        android:textColor="#fcfafa"/>
+    <ImageView
+        android:id="@+id/imgback"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/ic_exit1"
+        android:layout_marginTop="18dp"
+        android:layout_marginRight="15dp"/>
+
+
+   </RelativeLayout>
+    </android.support.design.widget.AppBarLayout>
+
+
+    <ListView
+        android:id="@+id/list"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+    </ListView>
+
+</LinearLayout>

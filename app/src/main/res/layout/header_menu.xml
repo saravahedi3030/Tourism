@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v7.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="200dp"
+    android:padding="20dp"
+    android:background="#0f94d1">
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#01254d"
+        >
+        <android.support.v7.widget.CardView
+            android:layout_width="90dp"
+            android:layout_height="90dp"
+            android:background="#e41c1c"
+            app:cardElevation="3dp"
+            android:layout_marginRight="10dp"
+            android:layout_marginTop="13dp"
+            app:cardCornerRadius="45dp">
+            <ImageView
+                android:layout_marginTop="11dp"
+                android:layout_marginRight="11dp"
+                android:layout_width="65dp"
+                android:layout_height="65dp"
+                android:src="@drawable/korh11"/>
+
+            </android.support.v7.widget.CardView>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="ایرانگردی"
+            android:textColor="#fbfcfc"
+            android:layout_marginRight="17dp"
+            android:layout_marginTop="123dp"
+            android:textSize="18dp"
+            android:textStyle="bold"/>
+    </FrameLayout>
+
+
+</android.support.v7.widget.CardView>

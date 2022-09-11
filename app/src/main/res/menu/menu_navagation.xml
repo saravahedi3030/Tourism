@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="nav_menu">
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/shahr"
+            android:icon="@drawable/ic_location_city_black_24dp"
+            android:title="انتخاب شهر" />
+
+
+        <item
+
+            android:id="@+id/rahnama"
+            android:icon="@drawable/ic_map"
+            android:title="راهنمای سفر" />
+
+
+
+        <item
+
+            android:id="@+id/moarfi"
+            android:icon="@drawable/langvege"
+
+            android:title="معرفی ایرانگردی" />
+
+
+
+        <item
+
+            android:id="@+id/safar"
+            android:icon="@drawable/ic_local_airport_black_24dp"
+            android:title="سفرهای من" />
+
+    <item
+        android:id="@+id/manabh"
+        android:icon="@drawable/ic_content_paste_black_24dp"
+        android:title="منابع" />
+</group>
+
+    <group android:checkableBehavior="single">
+
+        <item android:title="ارتباطات">
+
+            <menu>
+                <group  android:checkableBehavior="single">
+
+                    <item
+                        android:id="@+id/sheare"
+                        android:icon="@drawable/ic_share_black_24dp"
+                        android:title="معرفی به دوستان" />
+
+                    <item
+                        android:id="@+id/ertebat"
+                        android:icon="@drawable/ic_call_black_24dp"
+                        android:title="ارتباط با ما" />
+
+
+
+                </group>
+            </menu>
+        </item>
+    </group>
+
+
+
+</menu>

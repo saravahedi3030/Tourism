@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:title="جاذبه ها"
+        android:id="@+id/jazebh"
+        android:icon="@drawable/ic_nature_people_black_24dp"
+        />
+    <item
+        android:title="رستوران ها"
+        android:id="@+id/resturan"
+        android:icon="@drawable/ic_restaurant_black_24dp"
+        />
+
+    <item
+        android:title="مراکز خرید"
+        android:id="@+id/kharid"
+        android:icon="@drawable/ic_local_mall_black_24dp"
+        />
+
+
+    <item
+        android:title=" هتل ها"
+        android:id="@+id/hotel"
+        android:icon="@drawable/ic_home_24dp"
+        />
+
+
+</menu>
